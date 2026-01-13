@@ -9,34 +9,34 @@ function draw() {
   translate(width / 2, height / 2);
 
   noStroke();
-  fill(200, 32, 36);
+  fill(200, 32, 36); // red
   ellipse(0, 0, 500, 500);
 
-  fill(255);
+  fill(255); // white
   ellipse(0, 0, 380, 380);
 
-  stroke(255);
+  stroke(255); // white
   strokeWeight(6);
-  fill(82, 139, 204);
+  fill(82, 139, 204); // blue
   arc(0, 0, 350, 350, PI, 0, PIE);
-  fill(200, 32, 36);
+  fill(200, 32, 36); // red
   arc(0, 0, 350, 350, 0, PI, PIE);
   noStroke();
 
   noFill();
-  stroke(255);
+  stroke(255); // white
   strokeWeight(4);
   ellipse(0, 0, 350, 350);
   noStroke();
 
-  fill(255);
+  fill(255); // white
   textAlign(CENTER, CENTER);
   textSize(80);
   textFont('Arial');
   text('CAS', 0, -60);
 
   let barW = 60, barH = 12, barGap = 16;
-  fill(255);
+  fill(255); // white
   for (let i = 0; i < 3; i++) {
     rect(-70, 40 + i * (barH + barGap), barW, barH, 3);
   }
@@ -44,8 +44,8 @@ function draw() {
   push();
   translate(70, 70);
   rotate(radians(-18));
-  fill(0, 160, 70);
-  stroke(0, 120, 40);
+  fill(0, 160, 70); // green
+  stroke(0, 120, 40); // dark green
   strokeWeight(2);
   star(0, 0, 20, 45, 5);
   pop();
