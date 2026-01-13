@@ -56,7 +56,7 @@ function star() {
   vertex(43, -15); // right outer
   vertex(20, 5);  // right lower
   vertex(28, 35); // right bottom
-  vertex(0, 18);      // bottom
+  vertex(0, 18);   // bottom
   vertex(-28, 35); // left bottom
   vertex(-20, 5);  // left lower
   vertex(-43, -15); // left outer
